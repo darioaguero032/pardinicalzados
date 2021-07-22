@@ -167,7 +167,7 @@ form {
   align-content: flex-start;
   flex-direction: column;
   position: absolute;
-  left: 10em; top:120px; right: 0;
+  left: 9em; top:120px; right: 0;
 } 
 
 label  {
@@ -183,7 +183,7 @@ input {
 } 
 
 textarea {
- padding: 10px;
+ 
  text-decoration: none;
  background-color: #f1d5b9;
  color: #aba59c;
