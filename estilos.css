@@ -2,7 +2,12 @@
 header{
   text-align: right;
 }
-
+.logo {
+ 
+  position: absolute;
+  left: 100px; top: 65px; right: 0;
+  
+ } 
 .titulo {
   
   margin-top: 20px;
@@ -14,12 +19,7 @@ header{
   background-color: #e4d2b6;
 }
 
-.logo {
- 
-  position: absolute;
-  left: 100px; top: 65px; right: 0;
-  
- } 
+
 
 ul {
   margin-top: 50px;
@@ -60,11 +60,19 @@ body {
 }
 
 #inicio{
- 
+  
   height: 100%;
-  padding: 2.4em
+  padding: 5.4em
 }
+.navbarpropio{
+  padding: 10px;
+  border-radius: 20px;
+  }
 
+.navbar-collapse {
+    align-items: center;
+    width: 100%;
+}  
 
 #main{
   display: flex; 
